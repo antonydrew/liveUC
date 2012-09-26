@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.HistYahoo.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="HistPriceTableTableAdapter" GeneratorDataComponentClassName="HistPriceTableTableAdapter" Name="HistPriceTable" UserDataComponentName="HistPriceTableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        `Date`, `Open`, High, Low, `Close`, Volume
+FROM            `HistPrice.csv`
+WHERE        (`Date` IS NOT NULL) AND (`Open` IS NOT NULL) AND (High IS NOT NULL) AND (Low IS NOT NULL) AND (`Close` IS NOT NULL) AND (Volume IS NOT NULL)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="Open" DataSetColumn="Open" />
+              <Mapping SourceColumn="High" DataSetColumn="High" />
+              <Mapping SourceColumn="Low" DataSetColumn="Low" />
+              <Mapping SourceColumn="Close" DataSetColumn="Close" />
+              <Mapping SourceColumn="Volume" DataSetColumn="Volume" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LastPriceQuery" MethodsParameterType="CLR" Modifier="Public" Name="LastPriceQuery" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="LastPriceQuery">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>SELECT        `Date`, `Close`
+FROM            `HistPrice.csv`
+WHERE        (`Date` IS NOT NULL) AND (`Close` IS NOT NULL)</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HistPriceTable" msprop:Generator_TableClassName="HistPriceTableDataTable" msprop:Generator_TableVarName="tableHistPriceTable" msprop:Generator_TablePropName="HistPriceTable" msprop:Generator_RowDeletingName="HistPriceTableRowDeleting" msprop:Generator_UserTableName="HistPriceTable" msprop:Generator_RowChangingName="HistPriceTableRowChanging" msprop:Generator_RowEvHandlerName="HistPriceTableRowChangeEventHandler" msprop:Generator_RowDeletedName="HistPriceTableRowDeleted" msprop:Generator_RowEvArgName="HistPriceTableRowChangeEvent" msprop:Generator_RowChangedName="HistPriceTableRowChanged" msprop:Generator_RowClassName="HistPriceTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Open" msprop:Generator_ColumnVarNameInTable="columnOpen" msprop:Generator_ColumnPropNameInRow="Open" msprop:Generator_ColumnPropNameInTable="OpenColumn" msprop:Generator_UserColumnName="Open" type="xs:double" minOccurs="0" />
+              <xs:element name="High" msprop:Generator_ColumnVarNameInTable="columnHigh" msprop:Generator_ColumnPropNameInRow="High" msprop:Generator_ColumnPropNameInTable="HighColumn" msprop:Generator_UserColumnName="High" type="xs:double" minOccurs="0" />
+              <xs:element name="Low" msprop:Generator_ColumnVarNameInTable="columnLow" msprop:Generator_ColumnPropNameInRow="Low" msprop:Generator_ColumnPropNameInTable="LowColumn" msprop:Generator_UserColumnName="Low" type="xs:double" minOccurs="0" />
+              <xs:element name="Close" msprop:Generator_ColumnVarNameInTable="columnClose" msprop:Generator_ColumnPropNameInRow="Close" msprop:Generator_ColumnPropNameInTable="CloseColumn" msprop:Generator_UserColumnName="Close" type="xs:double" minOccurs="0" />
+              <xs:element name="Volume" msprop:Generator_ColumnVarNameInTable="columnVolume" msprop:Generator_ColumnPropNameInRow="Volume" msprop:Generator_ColumnPropNameInTable="VolumeColumn" msprop:Generator_UserColumnName="Volume" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

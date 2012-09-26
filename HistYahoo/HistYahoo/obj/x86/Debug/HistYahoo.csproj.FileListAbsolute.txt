@@ -1,0 +1,9 @@
+c:\users\xtreme\documents\visual studio 2010\Projects\HistYahoo\HistYahoo\bin\Debug\HistYahoo.exe
+c:\users\xtreme\documents\visual studio 2010\Projects\HistYahoo\HistYahoo\bin\Debug\HistYahoo.pdb
+c:\users\xtreme\documents\visual studio 2010\Projects\HistYahoo\HistYahoo\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\xtreme\documents\visual studio 2010\Projects\HistYahoo\HistYahoo\obj\x86\Debug\HistYahoo.exe
+c:\users\xtreme\documents\visual studio 2010\Projects\HistYahoo\HistYahoo\obj\x86\Debug\HistYahoo.pdb
+C:\Users\Xtreme\Documents\Visual Studio 2010\Projects\HistYahoo\HistYahoo\bin\Debug\HistYahoo.exe.config
+C:\Users\Xtreme\documents\visual studio 2010\Projects\HistYahoo\HistYahoo\obj\x86\Debug\HistYahoo.Form1.resources
+C:\Users\Xtreme\documents\visual studio 2010\Projects\HistYahoo\HistYahoo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Xtreme\documents\visual studio 2010\Projects\HistYahoo\HistYahoo\obj\x86\Debug\GenerateResource.write.1.tlog
