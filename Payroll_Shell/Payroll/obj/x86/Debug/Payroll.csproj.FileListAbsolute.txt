@@ -1,0 +1,10 @@
+C:\Documents and Settings\kkabani\My Documents\Per\University\Loyola\RAD.NET\Fall 2011\Content\Intro to Dot Net (Week 1 thru Week 3)\Week 3\Payroll\Payroll\bin\Debug\Payroll.exe
+C:\Documents and Settings\kkabani\My Documents\Per\University\Loyola\RAD.NET\Fall 2011\Content\Intro to Dot Net (Week 1 thru Week 3)\Week 3\Payroll\Payroll\bin\Debug\Payroll.pdb
+C:\Documents and Settings\kkabani\My Documents\Per\University\Loyola\RAD.NET\Fall 2011\Content\Intro to Dot Net (Week 1 thru Week 3)\Week 3\Payroll\Payroll\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kkabani\My Documents\Per\University\Loyola\RAD.NET\Fall 2011\Content\Intro to Dot Net (Week 1 thru Week 3)\Week 3\Payroll\Payroll\obj\x86\Debug\Payroll.exe
+C:\Documents and Settings\kkabani\My Documents\Per\University\Loyola\RAD.NET\Fall 2011\Content\Intro to Dot Net (Week 1 thru Week 3)\Week 3\Payroll\Payroll\obj\x86\Debug\Payroll.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Luc\Payroll_Shell\Payroll\obj\x86\Debug\Payroll.exe
+C:\Users\admin\Documents\Visual Studio 2010\Luc\Payroll_Shell\Payroll\obj\x86\Debug\Payroll.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Luc\Payroll_Shell\Payroll\bin\Debug\Payroll.exe
+C:\Users\admin\Documents\Visual Studio 2010\Luc\Payroll_Shell\Payroll\bin\Debug\Payroll.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Luc\Payroll_Shell\Payroll\obj\x86\Debug\ResolveAssemblyReference.cache
